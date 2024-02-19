@@ -1,0 +1,43 @@
+﻿Field,Description
+stock_item_id,Unique ID of the advert e.g. 8a42801e86dad35a0186dd181f956cb5
+last_date_seen,The date the vehicle was last seen advertised on Auto Trader e.g. 2023-01-31
+first_date_seen,The first date the vehicle was listed on Auto Trader
+days_to_sell,The difference in days between first_date_seen and last_date_seen
+first_retailer_asking_price,The price the advert had when first created. This may have been a temp holding price before it went live.
+last_retailer_asking_price,The last seen price
+can_home_deliver,This advert is able to be delivered to the buyers home
+reviews_per_100_advertised_stock_last_12_months,"How many reviews the seller has recieved in the last 12 months per 100 stock advertised, i.e. 200 stock advertised over the whole year, 150 reviews 150/2= 75"
+segment,Whether the seller is a Franchise or Independent retailer
+seats,Number of seats in the vehicle
+doors,Number of doors the vehicle contains. A hatchback boot counts as a door
+co2_emission_gpkm,The grams of C02 emitted per km driven
+top_speed_mph,The top speed of the vehicle in miles per hour
+zero_to_sixty_mph_seconds,The time to accelerate from 0-60 mph in seconds
+engine_power_bhp,Engine power in brake horsepower
+fuel_economy_wltp_combined_mpg,"The official WLTP miles per gallon rating for the vehicle combined over city, town, rural and motorway driving"
+battery_range_miles,The rated electric range of a vehicle
+battery_usable_capacity_kwh,The battery capacity availiable to use in kWh
+length_mm,The length of the vehicle in mm
+boot_space_seats_up_litres,The volume of the boot in litres
+insurance_group,"The insurance group of the vehicle, on a scale of 1-50, with group 1 generally being cheapest to insure and 50 the most expensive"
+plate,"The portion of the registration plate denoting the age of the vehicle. E.g. a vehicle registered in November 2023 would be 73. Vehicles registed pre-2001 are denoted with letters, e.g. April 2001 is Y"
+make,"The manufacturer of a vehicle, e.g. Ford"
+model,"The model of vehicle, e.g. Fiesta"
+generation,"The generation of vehicle, e.g. Hatchback (2017 - 2021)"
+derivative,The derivative of the vehicle e.g. 1.6T EcoBoost ST-200 Euro 6 3dr
+derivative_id,The unique id associated with each derivative e.g. fd820e9a5afb48dab523090ba27bcf99
+body_type,The body type of the vehicle e.g. Hatchback
+fuel_type,The vehicle fuel type e.g. Diesel Plug-in Hybrid
+transmission_type,"The transmission of the vehicle, primerially Automatic or Manual"
+drivetrain,Which wheels recieve power e.g. Front Wheel Drive
+colour,The standardised colour of the vehicle e.g. Grey
+odometer_reading_miles,The number of miles the vehicle has been driven
+first_registration_date,The date the vehicle was first registered e.g. 1985-12-06
+attention_grabber,"A small strip of text that appears on the advert search card, can contain emoji, taken from the last time the advert was seen e.g. !! 28000 MILES MPV STUNNING !!"
+manufacturer_approved,"Whether the vehicle is manufacturer approved, which often comes with benefits such as warrenty etc. binary field"
+price_indicator_rating,"The last seen price indicator flag shown on the advert. Based on the advertised price vs Auto Traders valuation, e.g. GOOD"
+adjusted_retail_amount_gbp,The Auto Trader valuation accounting for the optional spec on the vehicle. Taken on the last day advertised
+predicted_mileage,The Auto Trader predicted mileage for that vehicle. Taken on the last day advertised
+number_of_images,The number of images the advert contained on the last day advertised
+advert_quality,"Internal Auto Trader metric which aims to capture the overall quality of the advert, integers on a scale of 1 to 100 with 100 being best"
+postcode_area,The postcode area the vehicle was located at e.g. SW
